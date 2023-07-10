@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: white;
+    height: 100px;
+}
+
+
+
+body img {
+    opacity: 80%; 
+}
+
+
+.d-flex .btn {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2px;
+}
+
+.d-flex .btn .btn link:hover, .btn-search:hover, .btn-add:hover, .btn-sign-out:hover,.btn-sell_item:hover, .btn-add-to-stock:hover, .btn-buy:hover {
+    background-color: #1616ff;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 200px;
+    right: 560px;
+}
+    
+
+
+.btn-search {
+    border: none;
+    background-color: #1616ff;
+    border-radius: 4px;
+    padding: 0 15px;
+    height: 40px;
+    margin-left: 300px;  
+    color: white;
+    position: absolute;
+    left: 340px;
+    top: -7px;
+}
+
+.sign-out { 
+    text-align: center;
+}
+
+.btn-sign-out, .btn-sell_item, .btn-add-to-stock, .btn-add, .btn-buy, .btn-final-receipt {
+    border: none;
+    background-color: #1616ff;
+    color: white;
+    border-radius: 4px;
+    padding: 0 15px;
+    height: 40px;
+}
+
+
+.btn-add-to-stock {
+    position: static;
+}
+
+.btn-add, .btn-buy {
+    position: static;
+    align-items: center;
+}
+
+.btn .btn link:active {
+    background-color: #1616ff;
+    color: white;
+    font-weight: bold;
+}
+
+.search-bar .medicine-form input {
+   border: none;
+   border-radius: 5px;
+   height: 40px;
+   width: 500px;
+   padding: 0 10px;
+}
+
